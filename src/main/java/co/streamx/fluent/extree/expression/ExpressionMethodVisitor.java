@@ -179,7 +179,7 @@ final class ExpressionMethodVisitor extends MethodVisitor {
                 }
             }
             else {
-                assert _exprStack.size() == 1;
+                // assert _exprStack.size() == 1;
                 _classVisitor.setResult(_exprStack.pop());
             }
         }
